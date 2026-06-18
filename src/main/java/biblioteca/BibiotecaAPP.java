@@ -92,8 +92,8 @@ public class BibiotecaAPP {
                 System.out.print("Numero de paginas del libro: ");
                 paginasLibro = sc.nextInt();
                 sc.nextLine();
-
-                if (nombreUsuario == "") {
+//Cambiaremos el proceso de comprobacion.
+                if (nombreUsuario.isEmpty()) {
                     incidencias.add("El nombre esta vacio.");
                 }
 
