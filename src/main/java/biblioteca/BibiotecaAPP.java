@@ -239,9 +239,9 @@ public class BibiotecaAPP {
                 } else {
                     System.out.println("Operacion rechazada.");
                 }
-
+// ARREGLAMOS EL RANGO DEL BUCLE
                 int totalCaracteres = 0;
-                for (int i = 0; i <= nombreUsuario.length(); i++) {
+                for (int i = 0; i < nombreUsuario.length(); i++) {
                     totalCaracteres = totalCaracteres + 1;
                 }
 
