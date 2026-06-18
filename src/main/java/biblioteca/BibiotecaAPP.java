@@ -156,8 +156,8 @@ public class BibiotecaAPP {
                     prestamoPermitido = false;
                     mensajeFinal = "Usuario demasiado mayor para libros infantiles.";
                 }
-
-                if (usuarioSancionado = true) {
+//Aqui nos encontramos el error, será tan sencillo como cambiar el operador o bien eliminarlo.
+                if (usuarioSancionado) {
                     prestamoPermitido = false;
                     mensajeFinal = "Usuario sancionado. Prestamo denegado.";
                 }
